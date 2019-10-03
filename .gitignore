@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Pacman/Pacman/ClientApp/node_modules
+/Pacman/.vs
+/.vs
