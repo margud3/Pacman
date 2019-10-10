@@ -1,3 +1,5 @@
+using Pacman.Models.Builder.IBuilder;
+using Pacman.Models.Product;
 using Pacman.Models.Shared;
 using System;
 using System.Collections.Generic;
@@ -12,18 +14,12 @@ namespace Pacman.Models.Builder.ConcreteBuilder
 
         public void AddPlayer(Player[] players)
         {
-            foreach(Player player in players)
-            {
-              mapObjects.player = player;
-            }
+            mapObjects.players = players;
         }
 
         public void AddItem(Item[] items)
         {
-          foreach(Item item in items)
-          {
-            mapObjects.items = item;
-          }
+            mapObjects.items = items;
         }
 
         public MapObjects GetObjects()

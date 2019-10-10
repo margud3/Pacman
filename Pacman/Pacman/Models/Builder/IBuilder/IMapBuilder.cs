@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Pacman.Models.Builder.Product;
+using Pacman.Models.Product;
 
 namespace Pacman.Models.Builder.IBuilder
 {
